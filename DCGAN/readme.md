@@ -16,6 +16,7 @@
  이를위해서 골격의 정보라 할 수 있는 gradient image를 쌍으로 학습시켰다. 이를 통해서 G와 D는 골격(gradient) feature에 더 신경쓰게 될것이다. 이 골격정보는 hard한 feature가 될것이며 살쪄있는 정도나 머리색 등은 soft한 feature가 될것이다.
 
 * magnitude of gradient 예시
+
   ![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/test.jpg)
   
   ![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/test_grad.png)
