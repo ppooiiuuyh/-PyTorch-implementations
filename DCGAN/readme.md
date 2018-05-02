@@ -1,10 +1,19 @@
 # DCGAN
-* original implementation : https://github.com/pytorch/examples/tree/master/dcgan
+## References links
+* paper : https://arxiv.org/pdf/1511.06434.pdf
+* http://jaejunyoo.blogspot.com/2017/02/deep-convolutional-gan-dcgan-1.html
+* https://angrypark.github.io/DCGAN-paper-reading/
+* http://jsideas.net/python/2017/07/23/DCGAN_luckyZzang_experiment.html
+* https://kakalabblog.wordpress.com/2017/06/04/unsupervised-representation-learning-with-dcgan-2016-%EB%85%BC%EB%AC%B8-%EB%A6%AC%EB%B7%B0/
+* https://www.slideshare.net/enakai/dcgan-how-does-it-work
 
-# Changes
+## Original implementation
+ https://github.com/pytorch/examples/tree/master/dcgan
+
+## Changes
 * image size에 맞춰서 네트워크가 동적으로 구성되도록 변경
 
-# My Experiments
+## My Experiments
 
 
 ##### gradient magnitue 이미지를 같이 사용하여 학습
@@ -62,5 +71,5 @@
 
   tanh 함수의 특성상 -1과 1의 값의 등장확률은 다른값들에 비해 낮을것이라 생각했다. 이에 대하여 검은색과 흰색(극단색)의 생성 빈도가 낮게되지 않을까 하는 생각을 해보았다. 따라서 모든 분포확률이 동일하도록 y=x함수에 -1이하에선 -1, 1이상에선 1이 나오도록 사용해 보았지만 잘 되지 않았다. G의 output자체를 cross entrophy로 역전파하지는 않을테니 역전파문제는 아닐것같은데 정확한 이유는 모르겠다. 물론 안되는게 맞기는하지만 아직은 이해는 안된다.
   
- # Author
+ ## Author
  Dohyun Kim
