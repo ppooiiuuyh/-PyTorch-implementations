@@ -27,10 +27,12 @@
   
 * 결과 사진 비교
  * originalDCGAN
-![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/fake_samples_epoch_078.png)
+
+  ![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/fake_samples_epoch_078.png)
 
  * DCGAN with gradient
-![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/fake_samples_epoch_078_grad.png)
+
+ ![](https://raw.githubusercontent.com/ppooiiuuyh/-PyTorch-implementations/master/DCGAN/asset/fake_samples_epoch_078_grad.png)
 
  여전히 뮤턴트같지만 조금더 틀이 잡혀있는듯이 보이기도 한다. loss가 하나 추가되어 단순히 더 빨리 학습된것인지 (실제로 학습시간은 배로 더걸리게된다) 눈의 착각인지는 모르겠다.
  
